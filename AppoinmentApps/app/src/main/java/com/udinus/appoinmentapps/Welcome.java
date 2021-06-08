@@ -20,7 +20,7 @@ public class Welcome extends AppCompatActivity {
     }
 
     public void keScheduleHistory(View view) {
-        Intent i = new Intent(Welcome.this, ScheduleHistory.class);
+        Intent i = new Intent(Welcome.this, RecycleView.class);
         startActivity(i);
     }
 

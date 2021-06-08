@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MakeSchedule"></activity>
+        <activity android:name=".RecycleView"></activity>
+        <activity android:name=".MakeSchedule" />
         <activity android:name=".ScheduleHistory" />
         <activity android:name=".SuksesReset" />
         <activity android:name=".ResetPassword" />
