@@ -15,7 +15,7 @@
         android:layout_marginLeft="8dp"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/judul"
+            android:id="@+id/date"
             android:fontFamily="sans-serif-condensed-medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,14 +23,25 @@
             android:textSize="18sp"
             android:textColor="#FFA37161"
             android:paddingLeft="16dp"
-            android:text="Baby Blue" />
+            android:text="Date:" />
         <TextView
-            android:id="@+id/harga"
+            android:id="@+id/place"
+            android:fontFamily="sans-serif-condensed-medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Rp50.000"
+            android:text="Place:"
             android:textColor="#FFA37161"
-            android:textSize="14sp"
+            android:textSize="18sp"
+            android:paddingLeft="16dp"
+            />
+        <TextView
+            android:id="@+id/with"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With:"
+            android:textColor="#FFA37161"
+            android:textSize="18sp"
             android:paddingLeft="16dp"
             />
     </LinearLayout>

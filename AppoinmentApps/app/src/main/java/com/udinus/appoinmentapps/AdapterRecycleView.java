@@ -13,16 +13,18 @@ public class AdapterRecycleView extends RecyclerView.Adapter<AdapterRecycleView.
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView textHead;
-        TextView textHarga;
+        TextView textDate;
+        TextView textPlace;
+        TextView textWith;
 
 
         ViewHolder(View v) {
 
             super(v);
 
-            textHead = v.findViewById(R.id.judul);
-            textHarga = v.findViewById(R.id.harga);
+            textDate = v.findViewById(R.id.date);
+            textPlace = v.findViewById(R.id.place);
+            textWith = v.findViewById(R.id.with);
 
         }
     }
@@ -44,12 +46,14 @@ public class AdapterRecycleView extends RecyclerView.Adapter<AdapterRecycleView.
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
-        TextView textHead = holder.textHead;
-        TextView textHarga = holder.textHarga;
+        TextView textDate = holder.textDate;
+        TextView textPlace = holder.textPlace;
+        TextView textWith = holder.textWith;
 
 
-        textHead.setText(dataItem.get(position).getName());
-        textHarga.setText(dataItem.get(position).getHarga());
+        textDate.setText(dataItem.get(position).getDate());
+        textPlace.setText(dataItem.get(position).getPlace());
+        textWith.setText(dataItem.get(position).getWith());
 
     }
 

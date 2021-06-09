@@ -1,18 +1,23 @@
 package com.udinus.appoinmentapps;
 
 public class itemModel {
-    private String name;
-    private String harga;
+    private String date;
+    private String place;
+    private String with;
 
-    public itemModel(String name,String harga) {
-        this.name = name;
-        this.harga = harga;
+    public itemModel(String date,String place,String with) {
+        this.date = date;
+        this.place = place;
+        this.with = with;
 
     }
 
-    public String getName() {
-        return name;
+    public String getDate() {
+        return date;
     }
-    public String getHarga(){ return harga;}
+    public String getPlace(){ return place;}
+    public String getWith() {
+        return with;
+    }
 
 }

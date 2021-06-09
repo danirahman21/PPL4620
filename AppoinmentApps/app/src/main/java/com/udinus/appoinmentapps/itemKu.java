@@ -3,14 +3,19 @@ package com.udinus.appoinmentapps;
 public class itemKu {
 
 
-    static String [] Judul = {
+    static String [] Date = {
 
-            "Baby Blue", "Baby Pink", "Black", "Black 2", "Blue", "Espresso", "Espresso 2", "Green",
-            "Lavender", "Magenta", "Navy", "Navy 2", "Tosca", "Violet", "Violet 2"
+            "Date: ", "Date: ", "Date: ", "Date: ", "Date: ", "Date: ", "Date: ", "Date: ",
+            "Date: ", "Date: ", "Date: ", "Date: ", "Date: ", "Date: ", "Date: "
     };
-    static String[] Harga = {
+    static String[] Place = {
 
-            "Rp50.000","Rp50.000","Rp50.000","Rp50.000","Rp50.000","Rp50.000","Rp50.000","Rp50.000",
-            "Rp50.000","Rp50.000","Rp50.000","Rp50.000","Rp50.000","Rp50.000","Rp50.000",
+            "Place: ","Place: ","Place: ","Place: ","Place: ","Place: ","Place: ","Place: ",
+            "Place: ","Place: ","Place: ","Place: ","Place: ","Place: ","Place: ",
+    };
+    static String[] With = {
+
+            "With: ", "With: ", "With: ", "With: ", "With: ", "With: ", "With: ", "With: ",
+            "With: ", "With: ", "With: ", "With: ", "With: ", "With: ", "With: "
     };
 }

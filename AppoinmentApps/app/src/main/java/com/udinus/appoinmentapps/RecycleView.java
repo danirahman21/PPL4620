@@ -29,10 +29,11 @@ public class RecycleView extends AppCompatActivity {
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
 
         data = new ArrayList<>();
-        for (int i = 0; i < itemKu.Judul.length; i++) {
+        for (int i = 0; i < itemKu.Date.length; i++) {
             data.add(new itemModel(
-                    itemKu.Judul[i],
-                    itemKu.Harga[i]
+                    itemKu.Date[i],
+                    itemKu.Place[i],
+                    itemKu.With[i]
 
             ));
         }
