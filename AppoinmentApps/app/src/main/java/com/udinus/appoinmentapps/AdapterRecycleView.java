@@ -16,6 +16,7 @@ public class AdapterRecycleView extends RecyclerView.Adapter<AdapterRecycleView.
         TextView textDate;
         TextView textPlace;
         TextView textWith;
+        RecycleView rv_main;
 
 
         ViewHolder(View v) {
@@ -46,6 +47,7 @@ public class AdapterRecycleView extends RecyclerView.Adapter<AdapterRecycleView.
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
+        
         TextView textDate = holder.textDate;
         TextView textPlace = holder.textPlace;
         TextView textWith = holder.textWith;
