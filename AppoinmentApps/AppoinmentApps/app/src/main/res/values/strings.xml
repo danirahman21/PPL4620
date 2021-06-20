@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppoinmentApps</string>
+    <string name="logo_text">Apppoinment Apps</string>
+    <string name="sign_in">Masuk</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_to_continue">Log in untuk melanjutkan</string>
+    <string name="username">Username</string>
+    <string name="enter_your_uname">Masukkan username Anda</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Masukkan password baru Anda</string>
+    <string name="reenter_your_password">Masukkan kembali password baru Anda</string>
+    <string name="forgot_password">Lupa Password</string>
+    <string name="log_in">Log In</string>
+    <string name="txt_code">Kode Reset</string>
+    <string name="email">E-mail</string>
+    <string name="enter_your_txt_email">Masukkan e-mail Anda</string>
+    <string name="enter_reset_code">Masukkan Kode Reset</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="send_request">Send Request</string>
+    <string name="change_password">Ganti Password</string>
+    <string name="registrasi">Buat Akun? Klik disini</string>
+    <string name="signup">Registrasi</string>
+    <string name="btn_signup">Buat</string>
+    <string name="loginhere">Sudah punya akun? klik disini</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+</resources>
