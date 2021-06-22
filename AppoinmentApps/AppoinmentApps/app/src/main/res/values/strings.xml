@@ -24,4 +24,7 @@
     <string name="btn_signup">Buat</string>
     <string name="loginhere">Sudah punya akun? klik disini</string>
     <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="enter_your_txt_nama">Masukkan nama lengkap Anda</string>
+    <string name="NoHp">Nomor HP</string>
+    <string name="enter_your_txt_NoHp">Masukkan nomor HP Anda</string>
 </resources>
