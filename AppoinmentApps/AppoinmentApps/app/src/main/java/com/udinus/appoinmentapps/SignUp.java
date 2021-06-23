@@ -22,7 +22,7 @@ import java.util.regex.Pattern;
 
 public class SignUp extends AppCompatActivity {
 
-    private EditText mEmail, mPass;
+    private EditText mfullname, mEmail, mNoHp , mPass;
     private TextView mLoginHere;
     private Button signupBtn;
 
@@ -33,7 +33,9 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
+        mfullname = findViewById(R.id.EditTextSUnama);
         mEmail = findViewById(R.id.EditTextEmail);
+        mNoHp = findViewById(R.id.EditTextSUnoHp);
         mPass = findViewById(R.id.EditTextPassword);
         mLoginHere = findViewById(R.id.loginText);
         signupBtn = findViewById(R.id.btnSignUp);
@@ -56,7 +58,6 @@ public class SignUp extends AppCompatActivity {
     private void createUser(){
         String email = mEmail.getText().toString();
         String pass = mPass.getText().toString();
-
         if (!email.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()){
             if (!pass.isEmpty()){
                 mAuth.createUserWithEmailAndPassword(email, pass)
