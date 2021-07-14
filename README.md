@@ -1,7 +1,7 @@
 # PPL4620
 
 No Kelompok = 4
-Nama Tim : PLaY Shift
+Nama Tim : Play Shift
 Anggota : 
 Akbar Karunia Octaviantono 			(A11.2018.11503)(Anggota)       - Backend
 Dani Rahman Hakim				        (A11.2018.11497)(Ketua Tim)
